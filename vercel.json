@@ -1,13 +1,16 @@
 {
   "version": 2,
+  "public": true,
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": { "zeroConfig": true }
+      "use": "@vercel/node"
     }
   ],
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
   ]
 } 
