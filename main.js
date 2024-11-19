@@ -110,7 +110,7 @@ scene.add(attractorLine);
 
 // Add tick marks and numbers
 const fontLoader = new FontLoader();
-fontLoader.load('/fonts/helvetiker_regular.typeface.json', function(font) {
+fontLoader.load('./fonts/helvetiker_regular.typeface.json', function(font) {
     const createTicks = (axis, color) => {
         for(let i = -10; i <= 10; i++) {
             if(i === 0) continue;
