@@ -1,0 +1,7 @@
+{
+  "buildCommand": false,
+  "devCommand": false,
+  "installCommand": false,
+  "framework": null,
+  "outputDirectory": "dist"
+} 
